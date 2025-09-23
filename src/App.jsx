@@ -7,7 +7,7 @@ import Players from './component/Players'
 import Selected_players from './component/Selected_players'
 import Loading from './component/Loading'
 
-const playersPromise = fetchData("/players.json")
+const playersPromise = fetchData("https://raw.githubusercontent.com/somrat350/B10-a7/refs/heads/main/public/players.json")
 
 function App() {
 
