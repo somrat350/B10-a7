@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "playerImg": "https://i.ibb.co/s9NFsLxX/sakib.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.9,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": 350000
+  },
+  {
+    "id": 2,
+    "playerImg": "https://i.ibb.co/5h1fZ53y/Mosaddek.jpg",
+    "playerName": "Mosaddek Hossain",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 120000
+  },
+  {
+    "id": 3,
+    "playerImg": "https://i.ibb.co/XxyBnCjs/8mvq5v38-rashid-khan-625x300-26-June-24.webp",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playingRole": "Bowler",
+    "rating": 4.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 400000
+  },
+  {
+    "id": 4,
+    "playerImg": "https://i.ibb.co/Xr9hLk8d/Liton-das.webp",
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 4.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 150000
+  },
+  {
+    "id": 5,
+    "playerImg": "https://i.ibb.co/r2jTpyds/Andre-Russel.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 4.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 500000
+  },
+  {
+    "id": 6,
+    "playerImg": "https://i.ibb.co/WW7ytQXh/Tamim-Iqbal.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 4.5,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 200000
+  },
+  {
+    "id": 7,
+    "playerImg": "https://i.ibb.co/PzYv27mR/mushfiqur-rahim-fb.jpg",
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicket-keeper Batsman",
+    "rating": 4.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 180000
+  },
+  {
+    "id": 8,
+    "playerImg": "https://i.ibb.co/0RvR75nX/Brian-Lara.jpg",
+    "playerName": "Brian Lara",
+    "playerCountry": "West Indies",
+    "playingRole": "Batsman",
+    "rating": 4.6,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 250000
+  },
+  {
+    "id": 9,
+    "playerImg": "https://i.ibb.co/LdZwND5n/david-warner.jpg",
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playingRole": "Batsman",
+    "rating": 4.5,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": 300000
+  },
+  {
+    "id": 10,
+    "playerImg": "https://i.ibb.co/0jF0bFrq/jason-Holder.webp",
+    "playerName": "Jason Holder",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 4.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 220000
+  },
+  {
+    "id": 11,
+    "playerImg": "https://i.ibb.co/B5CSkQqw/masir-hossain.webp",
+    "playerName": "Nasir Hossain",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.3,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 100000
+  },
+  {
+    "id": 12,
+    "playerImg": "https://i.ibb.co/HDZHYRkf/mahmudullah.jpg",
+    "playerName": "Mahmudullah",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 200000
+  }
+]
