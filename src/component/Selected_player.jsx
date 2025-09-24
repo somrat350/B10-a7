@@ -1,6 +1,6 @@
 import deleteImg from "../assets/delete.png";
 
-export default function Selected_player({player,selectedPlayers,setSelectedPlayers}) {
+export default function Selected_player({player,selectedPlayers,setSelectedPlayers,balance,setBalance}) {
   
   return (
     <div className="flex items-center justify-between p-2">
@@ -21,7 +21,8 @@ export default function Selected_player({player,selectedPlayers,setSelectedPlaye
 
   function deletePlayer(id){
     const deletedPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer.id !== id)
-
     setSelectedPlayers(deletedPlayers)
+
+    setBalance(balance+player.price)
   }
 }
