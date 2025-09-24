@@ -30,7 +30,7 @@ function App() {
         availablePlayers?<Suspense fallback={<Loading/>}>
         <Players selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} playersPromise={playersPromise} balance={balance} setBalance={setBalance}/>
       </Suspense>:<Suspense fallback={<Loading/>}>
-        <Selected_players balance={balance} setBalance={setBalance} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} playersPromise={playersPromise}/>
+        <Selected_players setAvailablePlayers={setAvailablePlayers} balance={balance} setBalance={setBalance} selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} playersPromise={playersPromise}/>
       </Suspense>
       }
       
