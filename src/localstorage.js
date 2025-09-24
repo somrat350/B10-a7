@@ -17,12 +17,17 @@ const setItem = items => {
 
 const getBalance = ()=>{
   const balance = localStorage.getItem("balance");
-  return  balance?JSON.parse(balance):localStorage.setItem("balance",60000000)
+  
+  if(balance){
+    return balance;
+  }else{
+    setBalanceLocal(60000000)
+    return 60000000;
+  }
 }
 
 const setBalanceLocal = balance=>{
-  const balanceStr = JSON.stringify(balance)
-  localStorage.setItem("balance",balanceStr)
+  localStorage.setItem("balance",balance)
 }
 
 export {getItem,setItem,getBalance,setBalanceLocal}
