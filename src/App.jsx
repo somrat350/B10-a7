@@ -6,6 +6,7 @@ import Player_heading from './component/Player_heading'
 import Players from './component/Players'
 import Selected_players from './component/Selected_players'
 import Loading from './component/Loading'
+import { getBalance, setBalanceLocal, getItem, setItem } from './localstorage'
 
 const playersPromise = fetchData("https://raw.githubusercontent.com/somrat350/B10-a7/refs/heads/main/public/players.json")
 
@@ -13,8 +14,11 @@ function App() {
 
 
   const [availablePlayers,setAvailablePlayers] = useState(true)
-  const [balance,setBalance] = useState(6000000)
-  const [selectedPlayers,setSelectedPlayers] = useState([])
+  const [balance,setBalance] = useState(getBalance())
+  const [selectedPlayers,setSelectedPlayers] = useState(getItem())
+
+  setItem(selectedPlayers)
+  setBalanceLocal(balance)
 
   return (
     <>

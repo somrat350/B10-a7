@@ -20,7 +20,7 @@ export default function Selected_player({player,selectedPlayers,setSelectedPlaye
   );
 
   function deletePlayer(id){
-    const deletedPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer.id !== id)
+    const deletedPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer !== id)
     setSelectedPlayers(deletedPlayers)
 
     setBalance(balance+player.price)

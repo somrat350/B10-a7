@@ -4,8 +4,7 @@ import Player from "./Player";
 export default function Players({playersPromise,balance,setBalance,selectedPlayers,setSelectedPlayers}) {
   const players = use(playersPromise)
 
-  const remaining = players.filter(remain=> !selectedPlayers.includes(remain))
-  // setAllPlayers(remaining)
+  const remaining = players.filter(remain=> !selectedPlayers.includes(remain.id))
   
   return (
     <div className="max-w-7xl mx-auto p-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

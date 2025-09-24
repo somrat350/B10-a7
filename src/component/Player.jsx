@@ -15,11 +15,11 @@ export default function Player({player,balance,setBalance,selectedPlayers,setSel
       return;
     }
 
+    setSelectedPlayers([...selectedPlayers,player.id])
+
     const newBalance = balance-player.price
     setBalance(newBalance)
     setSelected(true)
-
-    setSelectedPlayers([...selectedPlayers,player])
   }
 
   return (
